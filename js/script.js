@@ -1,11 +1,15 @@
 // hero-swiper
 var swiper = new Swiper('.swiper-container', {
+  
+  speed: 600,
+  spaceBetween: 24,
+
   pagination: {
     el: '.swiper-pagination',
     clickable:true,
   },
   autoplay: {
-    delay: 3000,
+    delay: 4000,
     disableOnInteraction: false,
   },
   loop: true,

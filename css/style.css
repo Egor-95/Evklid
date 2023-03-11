@@ -68,6 +68,7 @@ p {
   --question__svg-color:#D2D2D2;
 
 
+
 }
 .container {
   max-width: 1800px;
@@ -139,9 +140,7 @@ p {
   background-repeat: no-repeat;
   background-position: center;
 }
-.logo:focus {
-  outline: 3px solid var(--hover-color);
-}
+
 .header__inner {
   display: flex;
   align-items: center;
@@ -186,9 +185,7 @@ p {
   .nav__link:active {
     color: var(--activ-color);
   }
-  .nav__link:focus {
-    outline:3px solid var(--hover-color);
-  }
+
 
 .search {
    width: 26px;
@@ -214,9 +211,7 @@ p {
 .search_svg:active circle {
   stroke: var(--activ-color);
 }
-.search:focus {
-  outline: 3px solid var(--hover-color);
-}
+
 
 
 
@@ -295,9 +290,7 @@ p {
   font-size: 23px;
   padding: 26px 40px;
 }
-.hero-content__btn:focus {
-  outline:3px solid var(--wite-color);
-}
+
 
 /* about */
 
@@ -361,9 +354,7 @@ transition: background-color .3s ease-out,border-color .3s ease-out;
   background-color: var(--activ-color);
   border-color: var(--activ-color);
 }
-.about-left__btn:focus {
-  outline:3px solid var(--wite-color);
-}
+
 
  .about-content__right {
    max-width: 870px;
@@ -423,12 +414,6 @@ transition: background-color .3s ease-out,border-color .3s ease-out;
 }
 .work__btn:active {
   color: var(--activ-color);
-}
-.work__btn:focus {
-  outline: 3px solid var(--hover-color);
-}
-.work-left__btn:focus {
-  outline: 3px solid var(--activ-color3);
 }
 
  .work-content {
@@ -565,9 +550,7 @@ transition: background-color .3s ease-out,border-color .3s ease-out;
    color: var(--hover-color);
    z-index: 1;
  }
- .question__title:focus {
-  outline: 3px solid var(--hover-color);
-}
+
  .question__texe {
    line-height: 32px;
    font-size: 16px;
@@ -642,9 +625,7 @@ transition: background-color .3s ease-out,border-color .3s ease-out;
    background-repeat: no-repeat;
    background-position: center;
  }
- .footer__logo:focus {
-  outline: 3px solid var(--hover-color);
-}
+
  .footer__list {
   margin-top: 8px;
  }
@@ -680,9 +661,7 @@ transition: background-color .3s ease-out,border-color .3s ease-out;
 .footer__link:active {
   color: var(--activ-color);
 }
-.footer__link:focus {
-  outline: 3px solid var(--hover-color);
-}
+
 .footer__social {
   display: flex;
   justify-content: space-between;
@@ -716,9 +695,7 @@ transition: background-color .3s ease-out,border-color .3s ease-out;
 .footer__svg:active path {
   fill: var(--activ-color);
 }
-.footer__social:focus  {
-  outline: 3px solid var(--hover-color);
-}
+
 .footer-centr {
   width: 618px;
 
@@ -749,9 +726,6 @@ transition: background-color .3s ease-out,border-color .3s ease-out;
 .form__input:hover {
   background-color: var(--hover-color3);
 }
-.form__input:focus {
-  outline: 3px solid var(--hover-color);
-}
 
 .form__textarea {
   height: 150px;
@@ -767,9 +741,7 @@ transition: background-color .3s ease-out,border-color .3s ease-out;
 .form__textarea:hover {
   background-color: var(--hover-color3);
 }
-.form__textarea:focus {
-  outline: 3px solid var(--hover-color);
-}
+
 .form__inner {
   display: flex;
   align-items: center;
@@ -779,9 +751,7 @@ transition: background-color .3s ease-out,border-color .3s ease-out;
   padding: 20px 54px;
   margin-right: 21px;
 }
-.form__btn:focus {
-  outline: 3px solid var(--wite-color);
-}
+
 
 /* input[type="checkbox"]:checked + label {
   color: var(--hover-color);
